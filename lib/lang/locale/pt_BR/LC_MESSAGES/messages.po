@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Senayan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-12 17:19-0300\n"
-"PO-Revision-Date: 2014-05-12 17:19-0300\n"
+"PO-Revision-Date: 2014-05-12 17:54-0300\n"
 "Last-Translator: Marlon <marlon@micrologi.com.br>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -5836,15 +5836,15 @@ msgstr "Reserva adicionada"
 
 #: lib/contents/member.inc.php:373
 msgid "Clear Basket"
-msgstr ""
+msgstr "Limpar Cesta"
 
 #: lib/contents/member.inc.php:374
 msgid "Remove selected title(s) from Basket"
-msgstr ""
+msgstr "Remover títulos selecionados da Cesta"
 
 #: lib/contents/member.inc.php:376
 msgid "title(s) on basket"
-msgstr ""
+msgstr "título(s) na Cesta"
 
 #: lib/contents/member.inc.php:398
 msgid "Your Membership Already EXPIRED! Please extend your membership."
@@ -5958,7 +5958,7 @@ msgstr "Clicar para ver outros documentos com esse assunto"
 
 #: lib/ip_based_access.inc.php:35
 msgid "Invalid access module"
-msgstr ""
+msgstr "Acesso inválido ao módulo"
 
 #: lib/lang/localisation.php:65
 msgid "Arabic"
