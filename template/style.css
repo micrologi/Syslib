@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* anu gaweane: Cah Purbalingga */
+
+body{
+	background:rgba(204,204,204,1);
+	font-family:calibri, Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#main{
+	margin:0 auto;
+	width:750px;
+	background:rgba(223,218,127,1) url(image/background.jpg) no-repeat;
+	border:1px solid #000;
+}
+
+#header{
+	background:url(image/bg_header.gif) repeat-x;
+	margin: 0px;
+	height: 80px;
+	width: 100%;
+	opacity:0.8;
+}
+
+#logo{
+	background: url(image/logo.png) no-repeat center;
+	float: left;
+	height: 60px;
+	width:60px;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+#libname{
+	color: #fff;
+	float: left;
+	font-family: space age, calibri, verdana, sans, 'Dejavu Sans';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	height: auto;
+	width: 400px;
+	margin:10px 0 0 5px;
+	padding-left:10px;
+}
+
+#libsubname{
+	color: #fff;
+	float: left;
+	font-family: neuropol x free, Calibri, tahoma, verdana, sans, 'Dejavu Sans';
+	font-size: 14px;
+	height: auto;
+	width: 400px;
+	margin-left:5px;
+	padding-left:10px;
+}
+
+#language{
+	padding:5px;
+	font-size:8px;
+	width:140px;
+	height:auto;
+	float:right;
+}
+
+#language select{
+	float:right;
+	width:150px;
+}
+
+#nav_left{
+	margin:5px;
+	width:135px;
+	float:left;
+	margin-top: 10px;
+}
+
+#nav_right{
+	width:65px;
+	margin-top:5px;
+	float:left;
+}
+
+#side_home{
+	background:rgba(255,0,51,1);
+	margin-bottom: 5px;
+	width:55px;
+	height:56px;
+	float:left;
+	padding:7px 3px 2px 7px;
+}
+
+#side_help{
+	background: rgba(204,153,0,1);
+	margin: 0 0 5px 5px;
+	width:55px;
+	height:56px;
+	float:left;
+	padding:7px 3px 2px 7px;
+}
+
+#side_image{
+	margin:5px 0 5px 0;
+	width:55px;
+	height:123px;
+	float:left;
+	padding:none;
+}
+
+#side_member{
+	background: rgba(0,204,0,1);
+	margin:0;
+	width:55px;
+	height:55px;
+	float:left;
+	padding:7px 3px 2px 7px;
+}
+
+#side_info{
+	background: rgba(0,153,255,1);
+	margin-left:5px;
+	width:55px;
+	height:55px;
+	float:left;
+	padding:7px 3px 2px 7px;
+}
+
+#side_award{
+	background: url(image/award_text.png) no-repeat center;
+	background-color: rgba(113,109,238,1);
+	margin:5px 5px 0 0;
+	width:125px;
+	height:55px;
+	float:left;
+	padding:5px;
+	-webkit-transition: all 0.5s ease;   
+	-moz-transition: all 0.5s ease;   
+	-o-transition: all 0.5s ease;   
+	transition: all  0.5s ease; 
+}
+
+#side_login{
+	background: rgba(145,0,229,1);
+	margin-top:11px;
+	width:55px;
+	height:55px;
+	float:left;
+	padding:7px 3px 2px 7px;
+}
+
+#side_home:hover, #side_help:hover, #side_member:hover, #side_info:hover, #side_login:hover{
+	background:rgba(143,191,38,1);
+}
+
+#side_award:hover{
+	background:rgba(143,191,38,0.8) url(image/award.png) no-repeat center;
+}
+
+#advance-search{
+	width:195px;
+	height:200px;
+	font-size:12px;
+	background:rgba(255,255,255,0.5);
+	margin-top:5px;
+	float:left;
+	padding:5px;
+}
+
+#advance-search h2{
+	color:rgba(255,255,255,1);
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+	border-bottom:1px solid rgba(125,16,224,0.5);
+}
+
+#advance-search input[type="text"]{
+	width:185px;
+}
+
+#welcome{
+	text-align:center;
+	color:rgba(255,255,255,0.9);
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	font-weight:bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	background: rgba(0,0,0,0.3);
+	margin:10px 5px 5px 220px;
+	width:515px;
+	padding:5px;
+	float:none;
+}
+
+#simple-search #search-theme-form label {
+    visibility: hidden;
+    display: none;
+    !important
+}
+
+#simple-search {
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin:5px 10px 5px 220px;
+	width:495px;
+    height:24px;
+	float:none;
+}
+
+#simple-search .form-text {
+    line-height: 10px;
+    font-size: 14px;
+    color: #444;
+    width: 420px;
+    float: left;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+	margin-bottom:8px;
+}
+
+#simple-search input[type = submit] {
+    width: 65px;
+    padding: 3px 3px;
+    font-size: 12px;
+    margin-bottom:8px;
+    float:left;
+    color: #000;
+	margin-left:5px;
+}
+
+#content{
+	margin:5px 5px 5px 220px;
+	width:505px;
+	float:none;
+	background:rgba(255,255,255,0.3);
+	padding:10px;
+}
+
+#contentiner{
+	background:rgba(255,255,255,0.5);
+	width:96%;
+	padding:10px;
+}
+
+#contentiner2{
+	width:96%;
+	overflow: hidden;
+}
+
+.info-box{
+	font-weight:bold;
+	font-size:14px;
+	font-family: calibri, verdana;
+	color:#333;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.9);
+	padding: 5px;
+	border-bottom:1px solid rgba(125,16,224,0.5);
+	margin:5px 5px 30px 5px;
+}
+
+.clear{
+	clear:both;
+	float:none;
+}
+
+#footer, #footer a, #footer a:hover{
+	background:url(image/bg_footer.gif) repeat-x;
+	height:40px
+	opacity:0.5;
+	text-align:center;
+	text-decoration:none;
+	font-size:9px;
+	font-family: verdana, sans, 'Dejavu Sans';
+	color:rgba(255,255,255,1);
+	padding:7px;
+}
+
+#footer a:hover{
+	color:rgba(33,201,245,1);
+	font-weight;bold;
+}
+
+.item {
+	min-height: 70px;
+	text-align: left;
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	padding-top: 1px;
+	padding-left: 53px;
+	background:url(image/book2.png)top left no-repeat;
+	-webkit-transition: all 0.5s ease;   
+	-moz-transition: all 0.5s ease;   
+	-o-transition: all 0.5s ease;   
+	transition: all  0.5s ease; 
+}
+
+.item:hover{
+	background: rgba(120,250,89,0.3)url(image/book2.png)top left no-repeat;
+}
+
+.item a{
+	font-weight: bold;
+	color:rgba(0,0,0,0.8);
+	text-decoration: none;
+}
+
+.item a:hover{
+	color:rgba(0,0,0,1);
+	text-decoration:none;
+}
+
+.item .titleField {
+  font-size: 120%;
+}
+
+.item .detailLink {
+  font-size: 10px;
+}
+
+.item .xmlDetailLink {
+  font-size: 10px;
+  background-color: #FF9900;
+}
+
+.subItem {
+  margin-top: 3px;
+}
+
+.detailLink, .xmlDetailLink {
+    padding: 1px;
+	border:1px solid #999;
+    text-decoration: none;
+    background:rgba(193,222,100,0.4);
+}
+
+.detailLink:hover, .xmlDetailLink:hover {
+	background:rgba(193,222,100,0.9);
+}
+	
+.xmlResultLink {
+	margin:10px 0 0 15px;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    background:rgba(125,16,224,0.9);
+    text-decoration: none;
+    color: #fff;
+	float:right;
+}
+
+table
+{
+	margin-left:20px;
+	border-collapse: collapse;
+}
+
+table td
+{
+	padding:4px;
+	border-bottom: solid 1px rgba(125,16,224,0.5);
+}
+table td a{
+	font-weight:200;
+	text-decoration:none;
+	color:rgba(0,136,50,1);
+}
+
+tr:hover{
+	background: rgba(120,250,89,0.25);
+}
+
+#login{
+	background:rgba(255,255,255,0.75);
+	width:250px;
+	height: 120px;
+	margin: 80px 0 120px 220px;
+	padding:20px 0 20px 45px;
+}

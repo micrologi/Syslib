@@ -1,0 +1,17 @@
+Arjava Theme Changes Log
+
+Arjava RC.3 
+========================================================================
+- Fixed 	: Update some CSS layout
+- Fixed 	: XML Link
+- Update	: Put 'Advance Search' link
+
+Arjava RC.2 
+========================================================================
+- Fixed 	: Put 'Back' and 'XML' Button
+
+Arjava RC.1 
+========================================================================
+- Update 	: Modified template structure inside index_template.inc.php
+- New		: Put some information base on Contents data
+
