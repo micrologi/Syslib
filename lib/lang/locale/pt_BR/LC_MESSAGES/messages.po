@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Senayan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-11 22:43-0300\n"
-"PO-Revision-Date: 2014-05-11 22:51-0300\n"
+"POT-Creation-Date: 2014-05-12 17:19-0300\n"
+"PO-Revision-Date: 2014-05-12 17:19-0300\n"
 "Last-Translator: Marlon <marlon@micrologi.com.br>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -5865,11 +5865,6 @@ msgstr "ATRASADO"
 msgid "item(s) currently on loan"
 msgstr "Itens emprestados no momento"
 
-#: lib/contents/member.inc.php:481
-#, fuzzy
-msgid "Download All Current Loan"
-msgstr "Seus empréstimos atuais"
-
 #: lib/contents/member.inc.php:525
 msgid "Your password have been changed successfully."
 msgstr "Sua senha foi modificada com sucesso."
@@ -6335,6 +6330,10 @@ msgstr "Página Inteira"
 #, fuzzy
 msgid "User Login"
 msgstr "Lista de usuários"
+
+#, fuzzy
+#~ msgid "Download All Current Loan"
+#~ msgstr "Seus empréstimos atuais"
 
 #~ msgid "Simple Search"
 #~ msgstr "Busca "
