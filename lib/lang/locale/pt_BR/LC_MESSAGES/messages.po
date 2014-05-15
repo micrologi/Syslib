@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Senayan\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-05-12 17:19-0300\n"
-"PO-Revision-Date: 2014-05-12 17:54-0300\n"
+"POT-Creation-Date: 2014-05-15 17:28-0300\n"
+"PO-Revision-Date: 2014-05-15 17:34-0300\n"
 "Last-Translator: Marlon <marlon@micrologi.com.br>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -93,14 +93,14 @@ msgstr ""
 "diretório dentro dele) ou o envio de arquivos, criação de relatórios e "
 "realização de backup da base de dados não poderão ser realizados. "
 
-#: admin/default/home.php:73
+#: admin/default/home.php:74
 msgid ""
 "The PATH for <strong>mysqldump</strong> program is not right! Please check "
 "configuration file or you won't be able to do any database backups."
 msgstr ""
-"O CAMINHO para o<strong>mysqldump</strong> programa não está correto! Por "
-"favor, verifique o arquivo de configuração ou ou não será possível  fazer "
-"backup das bases de dados"
+"O CAMINHO para o <strong>mysqldump</strong> está incorreto! Por favor, "
+"verifique o arquivo de configuração ou não será possível fazer backup da "
+"base de dados do sistema."
 
 #: admin/default/session.inc.php:26 admin/default/session_check.inc.php:25
 #: admin/modules/bibliography/custom_fields.inc.php:25
@@ -198,7 +198,9 @@ msgstr ""
 #: simbio2/simbio_UTILS/simbio_tokenizecql.v2.inc.php:28 sysconfig.inc.php:25
 #: sysconfig.inc.php:27 sysconfig.local.inc-sample.php:25
 #: sysconfig.local.inc-sample.php:27 sysconfig.local.inc.php:25
-#: sysconfig.local.inc.php:27 template/default/index_template.inc.php:27
+#: sysconfig.local.inc.php:27 template/arjava/index_template.inc.php:14
+#: template/arjava/index_template.inc.php:16
+#: template/default/index_template.inc.php:27
 #: template/default/index_template.inc.php:29
 #: template/default/login_template.inc.php:4
 #: template/default/login_template.inc.php:6
@@ -234,7 +236,7 @@ msgstr "não pode acessar este arquivo diretamente"
 #: admin/modules/serial_control/kardex.php:47
 #: admin/modules/serial_control/subscription.php:49
 msgid "You are not authorized to view this section"
-msgstr "Você não está autorizado para ver essa área"
+msgstr "Você não está autorizado para acessar está área!"
 
 #: admin/default/session_check.inc.php:57
 msgid "Your Login Session has already timeout!"
@@ -255,11 +257,11 @@ msgstr "Alterar atual perfil de usuário e senha"
 #: admin/default/submenu.php:24 admin/modules/bibliography/index.php:397
 #: admin/modules/bibliography/submenu.php:29
 msgid "Add New Bibliography"
-msgstr "Adicionar nova bibliografia"
+msgstr "Adicionar bibliográfia"
 
 #: admin/default/submenu.php:24 admin/modules/bibliography/submenu.php:29
 msgid "Add New Bibliographic Data/Catalog"
-msgstr "Adicionar nova bibliográfica"
+msgstr "Adicionar bibliográfia"
 
 #: admin/default/submenu.php:27 admin/modules/circulation/index.php:74
 #: admin/modules/circulation/submenu.php:27
@@ -273,11 +275,11 @@ msgstr "Iniciar processo de realização da circulação"
 #: admin/default/submenu.php:30 admin/modules/circulation/quick_return.php:60
 #: admin/modules/circulation/submenu.php:28 admin/modules/system/index.php:224
 msgid "Quick Return"
-msgstr "Volta rápida"
+msgstr "Retorno ao acervo"
 
 #: admin/default/submenu.php:30 admin/modules/circulation/submenu.php:28
 msgid "Quick Return Collection"
-msgstr "Volta rápida à coleção"
+msgstr "Retorno rápido ao acervo"
 
 #: admin/default/submenu.php:33 admin/modules/membership/index.php:318
 #: admin/modules/membership/submenu.php:28
@@ -286,7 +288,7 @@ msgstr "Adiconar novo associado"
 
 #: admin/default/submenu.php:33 admin/modules/membership/submenu.php:28
 msgid "Add New Library Member Data"
-msgstr "Adicionar dados de novo associado da biblioteca"
+msgstr "Adicionar dados de associado"
 
 #: admin/index.php:64
 msgid ""
@@ -459,15 +461,24 @@ msgstr "Itens emprestados"
 #: admin/modules/system/sys_log.php:85 admin/modules/system/sys_log.php:87
 #: admin/modules/system/user_group.php:175
 #: admin/modules/system/user_group.php:177
+#: template/MotherEarth/index_template.inc.php:113
+#: template/MotherEarth/index_template.inc.php:141
+#: template/RedTie/index_template.inc.php:92
+#: template/RedTie/index_template.inc.php:120
+#: template/RedTie/index_template_old.inc.php:63
+#: template/RedTie/index_template_old.inc.php:102
+#: template/arjava/index_template.inc.php:160
+#: template/arjava/index_template.inc.php:203
 #: template/default/index_template.inc.php:196
 #: template/default/index_template.inc.php:206
 #: template/default/index_template.inc.php:351
 #: template/default/index_template.inc.php:361
+#: template/index_template.inc.php:47 template/index_template.inc.php:97
 #: template/lightweight/index_template.inc.php:113
 #: template/meranti/index_template.inc.php:272
 #: template/meranti/index_template.inc.php:411
 msgid "Search"
-msgstr "Buscar"
+msgstr "Pesquisar"
 
 #: admin/modules/bibliography/checkout_item.php:71
 #: admin/modules/bibliography/item.php:291
@@ -568,8 +579,16 @@ msgstr "Código do Associado"
 #: lib/contents/download_current_loan.inc.php:62
 #: lib/contents/download_loan_history.inc.php:62
 #: lib/contents/member.inc.php:348 lib/contents/member.inc.php:466
-#: lib/contents/member.inc.php:501 template/default/index_template.inc.php:205
-#: template/default/index_template.inc.php:360
+#: lib/contents/member.inc.php:501 template/MotherEarth/detail_template.php:8
+#: template/MotherEarth/index_template.inc.php:120
+#: template/RedTie/detail_template.php:8
+#: template/RedTie/index_template.inc.php:99
+#: template/RedTie/index_template_old.inc.php:81
+#: template/arjava/index_template.inc.php:152
+#: template/arjava/index_template.inc.php:170
+#: template/default/index_template.inc.php:205
+#: template/default/index_template.inc.php:360 template/detail_template.php:8
+#: template/index_template.inc.php:41
 #: template/lightweight/detail_template.php:8
 #: template/meranti/index_template.inc.php:357
 msgid "Title"
@@ -729,8 +748,13 @@ msgstr "esperando na fila de impressão"
 #: admin/modules/reporting/customs/titles_list.php:288
 #: admin/modules/stock_take/current.php:107
 #: admin/modules/stock_take/lost_item_list.php:152
+#: template/MotherEarth/custom_frontpage_record.inc.php:11
+#: template/MotherEarth/detail_template.php:16
+#: template/RedTie/custom_frontpage_record.inc.php:11
+#: template/RedTie/detail_template.php:16
+#: template/arjava/detail_template.php:83
 #: template/default/custom_frontpage_record.inc.php:11
-#: template/default/detail_template.php:36
+#: template/default/detail_template.php:36 template/detail_template.php:16
 #: template/lightweight/custom_frontpage_record.inc.php:11
 #: template/lightweight/detail_template.php:16
 #: template/meranti/custom_frontpage_record.inc.php:11
@@ -805,7 +829,7 @@ msgstr "Ferramenta de Exportação"
 
 #: admin/modules/bibliography/export.php:160
 msgid "Export bibliographics data to CSV file"
-msgstr "Exportar dados bibliográficos para arquivo CSV"
+msgstr "Exportar acervo para um arquivo CSV"
 
 #: admin/modules/bibliography/export.php:168
 #: admin/modules/bibliography/item_export.php:151
@@ -969,7 +993,7 @@ msgstr "Novos dados de bibliografia gravados com sucesso"
 #: admin/modules/bibliography/index.php:289
 msgid "Bibliography Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar os dados da bibliografia. Por favor, entre em contato com "
+"Falha para salvar os dados da bibliografia. Por favor, entre em contato com "
 "o administrador do sistema"
 
 #: admin/modules/bibliography/index.php:366
@@ -1067,10 +1091,19 @@ msgstr "Autores"
 #: admin/modules/reporting/customs/titles_list.php:168
 #: admin/modules/reporting/customs/titles_list.php:288
 #: admin/modules/serial_control/index.php:65
+#: template/MotherEarth/custom_frontpage_record.inc.php:8
+#: template/MotherEarth/detail_template.php:20
+#: template/MotherEarth/index_template.inc.php:126
+#: template/RedTie/custom_frontpage_record.inc.php:8
+#: template/RedTie/detail_template.php:20
+#: template/RedTie/index_template.inc.php:105
+#: template/RedTie/index_template_old.inc.php:87
+#: template/arjava/detail_template.php:87
+#: template/arjava/index_template.inc.php:182
 #: template/default/custom_frontpage_record.inc.php:8
 #: template/default/detail_template.php:40
 #: template/default/index_template.inc.php:227
-#: template/default/index_template.inc.php:382
+#: template/default/index_template.inc.php:382 template/detail_template.php:20
 #: template/lightweight/custom_frontpage_record.inc.php:8
 #: template/lightweight/detail_template.php:20
 #: template/meranti/custom_frontpage_record.inc.php:8
@@ -1086,16 +1119,18 @@ msgstr "ISBN/ISSN"
 #: admin/modules/master_file/submenu.php:28
 #: admin/modules/reporting/customs/titles_list.php:167
 #: admin/modules/reporting/customs/titles_list.php:287
-#: template/default/detail_template.php:64
+#: template/MotherEarth/detail_template.php:48
+#: template/RedTie/detail_template.php:48
+#: template/arjava/detail_template.php:111
+#: template/default/detail_template.php:64 template/detail_template.php:48
 #: template/lightweight/detail_template.php:48
 #: template/meranti/detail_template.php:77
 msgid "Publisher"
-msgstr "Editora"
+msgstr "Editoras"
 
 #: admin/modules/bibliography/index.php:408
-#, fuzzy
 msgid "Upload Selected Bibliographic data to Union Catalog Server*"
-msgstr "Adicionar novo dados bibliográficos/catálogo"
+msgstr "Adicionar bibliográfia"
 
 #: admin/modules/bibliography/index.php:435
 #: admin/modules/bibliography/item.php:238
@@ -1121,7 +1156,7 @@ msgstr "Adicionar novo dados bibliográficos/catálogo"
 #: admin/modules/system/holiday.php:181 admin/modules/system/module.php:170
 #: admin/modules/system/user_group.php:193
 msgid "Save"
-msgstr "Gravar"
+msgstr "Salvar"
 
 #: admin/modules/bibliography/index.php:457
 #: admin/modules/bibliography/item.php:257
@@ -1146,7 +1181,7 @@ msgstr "Gravar"
 #: admin/modules/system/holiday.php:196 admin/modules/system/module.php:185
 #: admin/modules/system/user_group.php:208
 msgid "Update"
-msgstr "Atualizar"
+msgstr "Salvar"
 
 #: admin/modules/bibliography/index.php:475
 msgid ""
@@ -1164,9 +1199,17 @@ msgstr "Aducibar autor(es)"
 
 #: admin/modules/bibliography/index.php:481
 #: admin/modules/serial_control/index.php:65 lib/biblio_list_model.inc.php:236
-#: lib/contents/clustering.inc.php:120 template/default/detail_template.php:28
+#: lib/contents/clustering.inc.php:120
+#: template/MotherEarth/detail_template.php:25
+#: template/MotherEarth/index_template.inc.php:122
+#: template/RedTie/detail_template.php:25
+#: template/RedTie/index_template.inc.php:101
+#: template/RedTie/index_template_old.inc.php:83
+#: template/arjava/detail_template.php:75
+#: template/default/detail_template.php:28
 #: template/default/index_template.inc.php:213
-#: template/default/index_template.inc.php:368
+#: template/default/index_template.inc.php:368 template/detail_template.php:25
+#: template/index_template.inc.php:43
 #: template/lightweight/detail_template.php:25
 #: template/meranti/detail_template.php:41
 #: template/meranti/index_template.inc.php:224
@@ -1187,8 +1230,13 @@ msgid ""
 msgstr ""
 
 #: admin/modules/bibliography/index.php:489
+#: template/MotherEarth/custom_frontpage_record.inc.php:7
+#: template/MotherEarth/detail_template.php:12
+#: template/RedTie/custom_frontpage_record.inc.php:7
+#: template/RedTie/detail_template.php:12
+#: template/arjava/detail_template.php:79
 #: template/default/custom_frontpage_record.inc.php:7
-#: template/default/detail_template.php:32
+#: template/default/detail_template.php:32 template/detail_template.php:12
 #: template/lightweight/custom_frontpage_record.inc.php:7
 #: template/lightweight/detail_template.php:12
 #: template/meranti/custom_frontpage_record.inc.php:7
@@ -1201,7 +1249,10 @@ msgid "A version of publication having substantial changes or additions."
 msgstr ""
 
 #: admin/modules/bibliography/index.php:491
-#: template/default/detail_template.php:80
+#: template/MotherEarth/detail_template.php:68
+#: template/RedTie/detail_template.php:68
+#: template/arjava/detail_template.php:127
+#: template/default/detail_template.php:80 template/detail_template.php:68
 #: template/lightweight/detail_template.php:68
 #: template/meranti/detail_template.php:93
 msgid "Specific Detail Info"
@@ -1251,12 +1302,16 @@ msgstr "Para"
 #: admin/modules/stock_take/lost_item_list.php:151
 #: admin/modules/stock_take/st_report.php:169
 #: lib/contents/clustering.inc.php:79
+#: template/MotherEarth/index_template.inc.php:132
+#: template/RedTie/index_template.inc.php:111
+#: template/RedTie/index_template_old.inc.php:93
+#: template/arjava/index_template.inc.php:192
 #: template/default/index_template.inc.php:243
 #: template/default/index_template.inc.php:398
 #: template/meranti/index_template.inc.php:254
 #: template/meranti/index_template.inc.php:393
 msgid "Collection Type"
-msgstr "Tipo de Coleção"
+msgstr "Tipo de acervo"
 
 #: admin/modules/bibliography/index.php:502
 msgid "Item(s) code batch generator"
@@ -1283,15 +1338,23 @@ msgstr "Informações dos Itens"
 #: admin/modules/stock_take/init.php:165
 #: admin/modules/stock_take/lost_item_list.php:87
 #: admin/modules/stock_take/lost_item_list.php:149
-#: lib/contents/clustering.inc.php:60 template/default/detail_template.php:56
+#: lib/contents/clustering.inc.php:60
+#: template/MotherEarth/detail_template.php:40
+#: template/MotherEarth/index_template.inc.php:128
+#: template/RedTie/detail_template.php:40
+#: template/RedTie/index_template.inc.php:107
+#: template/RedTie/index_template_old.inc.php:89
+#: template/arjava/detail_template.php:103
+#: template/arjava/index_template.inc.php:186
+#: template/default/detail_template.php:56
 #: template/default/index_template.inc.php:236
-#: template/default/index_template.inc.php:391
+#: template/default/index_template.inc.php:391 template/detail_template.php:40
 #: template/lightweight/detail_template.php:40
 #: template/meranti/detail_template.php:69
 #: template/meranti/index_template.inc.php:244
 #: template/meranti/index_template.inc.php:383
 msgid "GMD"
-msgstr "Categoria"
+msgstr "Categorias"
 
 #: admin/modules/bibliography/index.php:517
 msgid "General material designation. The physical form of publication."
@@ -1320,7 +1383,10 @@ msgid "Unique publishing number for each title of publication."
 msgstr "Número único para cada título de publicação"
 
 #: admin/modules/bibliography/index.php:541
-#: template/default/detail_template.php:68
+#: template/MotherEarth/detail_template.php:52
+#: template/RedTie/detail_template.php:52
+#: template/arjava/detail_template.php:115
+#: template/default/detail_template.php:68 template/detail_template.php:52
 #: template/lightweight/detail_template.php:52
 #: template/meranti/detail_template.php:81
 msgid "Publishing Year"
@@ -1333,15 +1399,23 @@ msgstr "Ano da publicação"
 #: admin/modules/bibliography/index.php:550
 #: admin/modules/reporting/customs/titles_list.php:166
 #: admin/modules/reporting/customs/titles_list.php:286
-#: template/default/detail_template.php:72
+#: template/MotherEarth/detail_template.php:56
+#: template/RedTie/detail_template.php:56
+#: template/arjava/detail_template.php:119
+#: template/default/detail_template.php:72 template/detail_template.php:56
 #: template/lightweight/detail_template.php:56
 #: template/meranti/detail_template.php:85
 msgid "Publishing Place"
 msgstr "Local de publicação"
 
 #: admin/modules/bibliography/index.php:552
+#: template/MotherEarth/custom_frontpage_record.inc.php:9
+#: template/MotherEarth/detail_template.php:60
+#: template/RedTie/custom_frontpage_record.inc.php:9
+#: template/RedTie/detail_template.php:60
+#: template/arjava/detail_template.php:123
 #: template/default/custom_frontpage_record.inc.php:9
-#: template/default/detail_template.php:76
+#: template/default/detail_template.php:76 template/detail_template.php:60
 #: template/lightweight/custom_frontpage_record.inc.php:9
 #: template/lightweight/detail_template.php:60
 #: template/meranti/custom_frontpage_record.inc.php:9
@@ -1356,8 +1430,13 @@ msgid ""
 msgstr ""
 
 #: admin/modules/bibliography/index.php:554
+#: template/MotherEarth/custom_frontpage_record.inc.php:10
+#: template/MotherEarth/detail_template.php:37
+#: template/RedTie/custom_frontpage_record.inc.php:10
+#: template/RedTie/detail_template.php:37
+#: template/arjava/detail_template.php:99
 #: template/default/custom_frontpage_record.inc.php:10
-#: template/default/detail_template.php:52
+#: template/default/detail_template.php:52 template/detail_template.php:37
 #: template/lightweight/custom_frontpage_record.inc.php:10
 #: template/lightweight/detail_template.php:37
 #: template/meranti/custom_frontpage_record.inc.php:10
@@ -1380,7 +1459,10 @@ msgstr "Título da série"
 #: admin/modules/stock_take/lost_item_list.php:79
 #: admin/modules/stock_take/lost_item_list.php:150
 #: admin/modules/stock_take/st_report.php:131
-#: template/default/detail_template.php:48
+#: template/MotherEarth/detail_template.php:33
+#: template/RedTie/detail_template.php:33
+#: template/arjava/detail_template.php:95
+#: template/default/detail_template.php:48 template/detail_template.php:33
 #: template/lightweight/detail_template.php:33
 #: template/meranti/detail_template.php:61
 msgid "Classification"
@@ -1400,9 +1482,17 @@ msgstr "Adiconar assunto(s)"
 
 #: admin/modules/bibliography/index.php:567
 #: admin/modules/serial_control/index.php:65
-#: lib/contents/clustering.inc.php:98 template/default/detail_template.php:44
+#: lib/contents/clustering.inc.php:98
+#: template/MotherEarth/detail_template.php:29
+#: template/MotherEarth/index_template.inc.php:124
+#: template/RedTie/detail_template.php:29
+#: template/RedTie/index_template.inc.php:103
+#: template/RedTie/index_template_old.inc.php:85
+#: template/arjava/detail_template.php:91
+#: template/default/detail_template.php:44
 #: template/default/index_template.inc.php:220
-#: template/default/index_template.inc.php:375
+#: template/default/index_template.inc.php:375 template/detail_template.php:29
+#: template/index_template.inc.php:45
 #: template/lightweight/detail_template.php:29
 #: template/meranti/detail_template.php:57
 #: template/meranti/index_template.inc.php:230
@@ -1420,7 +1510,10 @@ msgstr "Assunto(s)"
 #: admin/modules/reporting/customs/class_recap.php:77
 #: admin/modules/reporting/customs/class_recap.php:136
 #: admin/modules/reporting/customs/titles_list.php:117
-#: template/default/detail_template.php:60
+#: template/MotherEarth/detail_template.php:44
+#: template/RedTie/detail_template.php:44
+#: template/arjava/detail_template.php:107
+#: template/default/detail_template.php:60 template/detail_template.php:44
 #: template/lightweight/detail_template.php:44
 #: template/meranti/detail_template.php:73
 msgid "Language"
@@ -1431,6 +1524,8 @@ msgid "Language use by publication."
 msgstr "Linguagem da publicação"
 
 #: admin/modules/bibliography/index.php:577
+#: template/MotherEarth/detail_template.php:64
+#: template/RedTie/detail_template.php:64 template/detail_template.php:64
 #: template/lightweight/detail_template.php:64
 msgid "Abstract/Notes"
 msgstr "Resumo/Notas"
@@ -1502,7 +1597,6 @@ msgid "Default"
 msgstr "Padrão"
 
 #: admin/modules/bibliography/index.php:602
-#, fuzzy
 msgid "Resolution"
 msgstr "Reserva"
 
@@ -1550,13 +1644,15 @@ msgstr "Anterior"
 
 #: admin/modules/bibliography/index.php:606
 msgid "Rotate Left"
-msgstr ""
+msgstr "Girar a Esquerda"
 
 #: admin/modules/bibliography/index.php:606
 msgid "Rotate Right"
-msgstr ""
+msgstr "Girar a Direita"
 
 #: admin/modules/bibliography/index.php:610
+#: template/MotherEarth/detail_template.php:72
+#: template/RedTie/detail_template.php:72 template/detail_template.php:72
 #: template/lightweight/detail_template.php:72
 msgid "Image"
 msgstr "Imagem"
@@ -1568,7 +1664,10 @@ msgstr "Adicionar anexo"
 #: admin/modules/bibliography/index.php:616
 #: admin/modules/master_file/label.php:213
 #: admin/modules/master_file/label.php:218
-#: template/default/detail_template.php:84
+#: template/MotherEarth/detail_template.php:76
+#: template/RedTie/detail_template.php:76
+#: template/arjava/detail_template.php:131
+#: template/default/detail_template.php:84 template/detail_template.php:76
 #: template/lightweight/detail_template.php:76
 #: template/meranti/detail_template.php:97
 msgid "File Attachment"
@@ -1738,12 +1837,16 @@ msgstr "Código do inventário"
 #: admin/modules/stock_take/init.php:181
 #: admin/modules/stock_take/lost_item_list.php:115
 #: admin/modules/system/sys_log.php:108
+#: template/MotherEarth/index_template.inc.php:136
+#: template/RedTie/index_template.inc.php:115
+#: template/RedTie/index_template_old.inc.php:97
+#: template/arjava/index_template.inc.php:198
 #: template/default/index_template.inc.php:250
 #: template/default/index_template.inc.php:405
 #: template/meranti/index_template.inc.php:262
 #: template/meranti/index_template.inc.php:401
 msgid "Location"
-msgstr "Localização"
+msgstr "Localizações"
 
 #: admin/modules/bibliography/item.php:305
 #: admin/modules/stock_take/init.php:183
@@ -1781,7 +1884,7 @@ msgstr "Data de recebimento"
 #: admin/modules/master_file/submenu.php:29
 #: admin/modules/master_file/supplier.php:135
 msgid "Supplier"
-msgstr "Fornecedor"
+msgstr "Fornecedores"
 
 #: admin/modules/bibliography/item.php:337
 msgid "Buy"
@@ -1818,8 +1921,10 @@ msgstr "Você está editando dados de item"
 #: admin/modules/master_file/author.php:132
 #: admin/modules/master_file/submenu.php:30
 #: admin/modules/reporting/customs/titles_list.php:78
+#: template/arjava/index_template.inc.php:156
+#: template/arjava/index_template.inc.php:174
 msgid "Author"
-msgstr "Autor"
+msgstr "Autores"
 
 #: admin/modules/bibliography/item_barcode_generator.php:201
 #: admin/modules/bibliography/item_barcode_generator.php:210
@@ -1842,7 +1947,7 @@ msgstr "Ferramenta de exportação de Item"
 
 #: admin/modules/bibliography/item_export.php:143
 msgid "Export item data to CSV file"
-msgstr "Exportar dados de usuário(s) para arquivo CSV"
+msgstr "Exportar dados de usuário(s) para um arquivo CSV"
 
 #: admin/modules/bibliography/item_import.php:191
 msgid "Item Import tool"
@@ -2036,7 +2141,7 @@ msgstr "Configurações salvas"
 #: admin/modules/bibliography/print_settings.php:78
 #: admin/modules/system/holiday.php:318 admin/modules/system/index.php:158
 msgid "Save Settings"
-msgstr "Gravar configurações"
+msgstr "Salvar configurações"
 
 #: admin/modules/bibliography/print_settings.php:88
 msgid "Print setting for"
@@ -2106,7 +2211,7 @@ msgstr "Coletar dados bibliográficos do serviço Web Z3950"
 #: admin/modules/master_file/submenu.php:40
 #: admin/modules/membership/submenu.php:30
 msgid "Tools"
-msgstr "Ferramentas"
+msgstr "Utilitários"
 
 #: admin/modules/bibliography/submenu.php:38
 msgid "Print Document Labels"
@@ -2118,11 +2223,11 @@ msgstr "Imprimir códigos de barra do item"
 
 #: admin/modules/bibliography/submenu.php:40
 msgid "Print Catalog Card"
-msgstr "Imprimir cartão do associado"
+msgstr "Imprimir etiquetas "
 
 #: admin/modules/bibliography/submenu.php:41
 msgid "MARC Import"
-msgstr ""
+msgstr "Importação MARC"
 
 #: admin/modules/bibliography/submenu.php:41
 #, fuzzy
@@ -2131,11 +2236,11 @@ msgstr "Importar de arquivo CSV para base de dados bibliográfico"
 
 #: admin/modules/bibliography/submenu.php:42
 msgid "Data Export"
-msgstr "Data de Exportação"
+msgstr "Exportação (CSV)"
 
 #: admin/modules/bibliography/submenu.php:42
 msgid "Export Bibliographic Data To CSV format"
-msgstr "Exportar dados bibliográficos para o formato CSV"
+msgstr "Exportar acervo para um arquivo CSV"
 
 #: admin/modules/bibliography/submenu.php:43
 msgid "Data Import"
@@ -2150,9 +2255,8 @@ msgid "Item Export"
 msgstr "Item para exportar"
 
 #: admin/modules/bibliography/submenu.php:44
-#, fuzzy
 msgid "Export Item/Copies data To CSV format"
-msgstr "Exportar dados bibliográficos para o formato CSV"
+msgstr "Exportar itens para o formato CSV"
 
 #: admin/modules/bibliography/submenu.php:45
 msgid "Item Import"
@@ -2317,7 +2421,7 @@ msgstr ""
 
 #: admin/modules/circulation/circulation_action.php:392
 msgid "Reservation removed"
-msgstr "Reserva removida"
+msgstr "Reserva deletada"
 
 #: admin/modules/circulation/circulation_action.php:407
 msgid "Fines data removed"
@@ -2424,12 +2528,12 @@ msgstr "Novos dados de multas gravados com sucesso"
 #: admin/modules/circulation/fines_list.php:95
 msgid "Fines Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados de multas. Por favor, entre em contato com o "
+"Falha para salvar informações de multas. Por favor, entre em contato com o "
 "administrador do sistema"
 
 #: admin/modules/circulation/fines_list.php:132
 msgid "Add New Fines"
-msgstr "Adicionar nova multas"
+msgstr "Adicionar multas"
 
 #: admin/modules/circulation/fines_list.php:133
 msgid "Fines List"
@@ -2604,7 +2708,7 @@ msgstr "Novas regras de empréstimo gravadas com sucesso"
 #: admin/modules/circulation/loan_rules.php:87
 msgid "Loan Rules FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar as regras de empréstimo. Por favor, entre em contato com o "
+"Falha para salvar as regras de empréstimo. Por favor, entre em contato com o "
 "administrador do sistema"
 
 #: admin/modules/circulation/loan_rules.php:129
@@ -2618,7 +2722,7 @@ msgstr "Lista de regras de empréstimo"
 
 #: admin/modules/circulation/loan_rules.php:134
 msgid "Add New Loan Rules"
-msgstr "Adicionar novas regras de empréstimo"
+msgstr "Adicionar regras de empréstimo"
 
 #: admin/modules/circulation/loan_rules.php:193
 #: admin/modules/circulation/loan_rules.php:198
@@ -2694,8 +2798,8 @@ msgstr "Retorno rápido está desativado"
 #: admin/modules/circulation/quick_return.php:64
 msgid "Insert an item ID to return collection with keyboard or barcode reader"
 msgstr ""
-"Inserir um ID de item par voltar à coleção - com teclado ou leitor de código "
-"de barras"
+"Inserir um código de item par retornar ao acervo - Utilize para isso o "
+"teclado ou o leitor de código de barras"
 
 #: admin/modules/circulation/quick_return.php:67
 msgid "Item ID"
@@ -2707,7 +2811,7 @@ msgstr "Você tem certeza que quer remover resarva de"
 
 #: admin/modules/circulation/reserve_list.php:69
 msgid "Search Collection"
-msgstr "Buscar coleção"
+msgstr "Pesquisar acervo"
 
 #: admin/modules/circulation/reserve_list.php:76
 msgid "Add Reserve"
@@ -2745,7 +2849,7 @@ msgstr "Ver usuários com atrasos"
 #: admin/modules/circulation/submenu.php:32
 #: admin/modules/reporting/customs/reserve_list.php:61
 msgid "Reservation"
-msgstr "Reserva"
+msgstr "Lista de Reservas"
 
 #: admin/modules/master_file/author.php:49
 #: admin/modules/master_file/author.php:151
@@ -2818,7 +2922,7 @@ msgstr "Dados de novo autor gravados com sucesso"
 #: admin/modules/master_file/coll_type.php:85
 msgid "Author Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados do autor. Por favor, entre em contato com o "
+"Falha para salvar informações do autor. Por favor, entre em contato com o "
 "administrador do sistema"
 
 #: admin/modules/master_file/author.php:136
@@ -2827,7 +2931,7 @@ msgstr "Lista de autor"
 
 #: admin/modules/master_file/author.php:137
 msgid "Add New Author"
-msgstr "Adicionar novo autor"
+msgstr "Adicionar autor"
 
 #: admin/modules/master_file/author.php:182
 msgid "Author Birth Year"
@@ -2847,7 +2951,7 @@ msgstr "Tipo de autoridade"
 #: admin/modules/master_file/topic.php:216
 #: admin/modules/master_file/topic.php:222
 msgid "Authority Files"
-msgstr "Arquivos de autoridades"
+msgstr "Cadastros Gerais"
 
 #: admin/modules/master_file/author.php:193
 msgid "You are going to edit author data"
@@ -2860,22 +2964,22 @@ msgstr "Ano Autor"
 
 #: admin/modules/master_file/coll_type.php:56
 msgid "Collection type name can't be empty"
-msgstr "Nome da coleção não pode estar vazio"
+msgstr "Nome do acervo não pode estar vazio"
 
 #: admin/modules/master_file/coll_type.php:74
 msgid "Colllection Type Data Successfully Updated"
-msgstr "Dados da coleção atualizados com sucesso"
+msgstr "Dados do acervo atualizados com sucesso"
 
 #: admin/modules/master_file/coll_type.php:76
 msgid ""
 "Colllection Type Data FAILED to Updated. Please Contact System Administrator"
 msgstr ""
-"FALHA na atualização do tipo de coleção. Por favor, entre em contato com o "
+"FALHA na atualização do tipo de acervo. Por favor, entre em contato com o "
 "administrador do sistema"
 
 #: admin/modules/master_file/coll_type.php:83
 msgid "New Colllection Type Data Successfully Saved"
-msgstr "Novo tipo de coleção gravado com sucesso"
+msgstr "Novo tipo de acervo gravado com sucesso"
 
 #: admin/modules/master_file/coll_type.php:115
 #: admin/modules/master_file/location.php:119
@@ -2884,15 +2988,15 @@ msgstr "Localização ({item_name}) já utilizado por {number_items} iten(s)"
 
 #: admin/modules/master_file/coll_type.php:151
 msgid "Collection Type List"
-msgstr "Lista de tipo de coleção"
+msgstr "Lista de tipo de acervo"
 
 #: admin/modules/master_file/coll_type.php:152
 msgid "Add New Collection Type"
-msgstr "Adicionar novo tipo de coleção"
+msgstr "Adicionar tipo de acervo"
 
 #: admin/modules/master_file/coll_type.php:198
 msgid "You are going to edit collection type data"
-msgstr "Você esta eidtando dados de tipo de coleção"
+msgstr "Você esta eidtando dados do tipo de acervo"
 
 #: admin/modules/master_file/doc_language.php:56
 msgid "Language ID or Name can't be empty"
@@ -2915,7 +3019,7 @@ msgstr "Dados do novo idioma gravado com sucesso!"
 #: admin/modules/master_file/doc_language.php:88
 msgid "Language Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"Falha para gravar dados do idioma. Por favor, entre em contato com o "
+"Falha para salvar informações do idioma. Por favor, entre em contato com o "
 "administrador do sistema"
 
 #: admin/modules/master_file/doc_language.php:130
@@ -2929,7 +3033,7 @@ msgstr "Lista de idiomas"
 
 #: admin/modules/master_file/doc_language.php:135
 msgid "Add New Language"
-msgstr "Adicionar novo  idioma"
+msgstr "Adicionar idioma"
 
 #: admin/modules/master_file/doc_language.php:178
 msgid "Language Code"
@@ -2956,8 +3060,8 @@ msgstr "Novos dados de frequência gravaods com sucesso"
 #: admin/modules/master_file/frequency.php:86
 msgid "Frequency Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados de frequência. Por favor, entre em contato com o "
-"administrador do sistema"
+"Falha para salvar informações de frequência. Por favor, entre em contato com "
+"o administrador do sistema"
 
 #: admin/modules/master_file/frequency.php:132
 msgid "Frequency Available"
@@ -3028,8 +3132,8 @@ msgstr "Novos dados da Categoria gravados com sucesso"
 #: admin/modules/master_file/index.php:89
 msgid "GMD Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados da Categoria. Por favor, entre em contato com o "
-"administrador do sistema"
+"Falha para salvar informações da Categoria. Por favor, entre em contato com "
+"o administrador do sistema"
 
 #: admin/modules/master_file/index.php:131
 msgid "GMD (General Material Designation)"
@@ -3041,7 +3145,7 @@ msgstr "Lista de Categorias"
 
 #: admin/modules/master_file/index.php:136
 msgid "Add New GMD"
-msgstr "Adicionar nova Categoria"
+msgstr "Adicionar categoria"
 
 #: admin/modules/master_file/index.php:179
 #: admin/modules/master_file/index.php:198
@@ -3093,7 +3197,7 @@ msgstr ""
 
 #: admin/modules/master_file/item_status.php:159
 msgid "Add New Item Status"
-msgstr "Adicionar nova situação do item"
+msgstr "Adicionar situação de item"
 
 #: admin/modules/master_file/item_status.php:202
 #: admin/modules/master_file/item_status.php:230
@@ -3146,7 +3250,7 @@ msgstr "Lista de etiquetas"
 
 #: admin/modules/master_file/label.php:165
 msgid "Add New Label"
-msgstr "Adicionar nova etiqueta"
+msgstr "Adicionar etiqueta"
 
 #: admin/modules/master_file/label.php:208
 #: admin/modules/master_file/label.php:239
@@ -3185,8 +3289,8 @@ msgstr "Dados de localização gravados com sucesso"
 #: admin/modules/master_file/location.php:89
 msgid "Location Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados da localização. Por favor, entre em contato com o "
-"administrador do sistema"
+"Falha para salvar informações da localização. Por favor, entre em contato "
+"com o administrador do sistema"
 
 #: admin/modules/master_file/location.php:155
 msgid "Location List"
@@ -3194,7 +3298,7 @@ msgstr "Lista de localização"
 
 #: admin/modules/master_file/location.php:156
 msgid "Add New Location"
-msgstr "Adicionar nova localização"
+msgstr "Adicionar localização"
 
 #: admin/modules/master_file/location.php:199
 #: admin/modules/master_file/location.php:218
@@ -3233,7 +3337,7 @@ msgstr "Novos dados de lugar gravados com sucesso"
 #: admin/modules/master_file/place.php:86
 msgid "Place Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados de local. Por favor, entre em contato com o "
+"Falha para salvar informações de local. Por favor, entre em contato com o "
 "administrador do sistema"
 
 #: admin/modules/master_file/place.php:128
@@ -3247,7 +3351,7 @@ msgstr "Lista de locais"
 
 #: admin/modules/master_file/place.php:133
 msgid "Add New Place"
-msgstr "Adicionar novo local"
+msgstr "Adicionar localização"
 
 #: admin/modules/master_file/place.php:176
 #: admin/modules/master_file/place.php:199
@@ -3290,7 +3394,7 @@ msgstr "Lista de editoras"
 
 #: admin/modules/master_file/publisher.php:133
 msgid "Add New Publisher"
-msgstr "Adicionar nova editora"
+msgstr "Adicionar editora"
 
 #: admin/modules/master_file/publisher.php:176
 #: admin/modules/master_file/publisher.php:200
@@ -3323,8 +3427,9 @@ msgstr "Documentar autores"
 #: admin/modules/master_file/topic.php:179
 #: admin/modules/master_file/topic.php:213
 #: admin/modules/master_file/topic.php:219
+#: template/arjava/index_template.inc.php:178
 msgid "Subject"
-msgstr "Assunto"
+msgstr "Assuntos"
 
 #: admin/modules/master_file/submenu.php:32
 msgid "Item Location"
@@ -3332,7 +3437,7 @@ msgstr "Localização do item"
 
 #: admin/modules/master_file/submenu.php:33
 msgid "Lookup Files"
-msgstr "Busca de arquivos"
+msgstr "Cadastros Básicos"
 
 #: admin/modules/master_file/submenu.php:37
 msgid "Document Content Language"
@@ -3343,28 +3448,24 @@ msgid "Special Labels for Titles to Show Up On Homepage"
 msgstr "Etiquetas especiais para os título exibidos na homepage"
 
 #: admin/modules/master_file/submenu.php:41
-#, fuzzy
 msgid "Orphaned Author"
-msgstr "Adicionar autor"
+msgstr "Autores Órfãos"
 
 #: admin/modules/master_file/submenu.php:41
-#, fuzzy
 msgid "Orphaned Authors"
-msgstr "Aducibar autor(es)"
+msgstr "Autores Órfãos"
 
 #: admin/modules/master_file/submenu.php:42
-#, fuzzy
 msgid "Orphaned Subject"
-msgstr "Adicionar assunto"
+msgstr "Assuntos Órfãos"
 
 #: admin/modules/master_file/submenu.php:43
-#, fuzzy
 msgid "Orphaned Publisher"
-msgstr "Editora"
+msgstr "Editoras Órfãs"
 
 #: admin/modules/master_file/submenu.php:44
 msgid "Orphaned Place"
-msgstr ""
+msgstr "Localizações Órfãs"
 
 #: admin/modules/master_file/supplier.php:56
 msgid "Supplier Name can't be empty"
@@ -3387,8 +3488,8 @@ msgstr "Novos dados do fornecedor gravados com sucesso"
 #: admin/modules/master_file/supplier.php:92
 msgid "Supplier Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados do fornecedor. Por favor, entre em contato com o "
-"administrador do sistema"
+"Falha para salvar informações do fornecedor. Por favor, entre em contato com "
+"o administrador do sistema"
 
 #: admin/modules/master_file/supplier.php:139
 msgid "Supplier List"
@@ -3396,7 +3497,7 @@ msgstr "Lista de fornecedores"
 
 #: admin/modules/master_file/supplier.php:140
 msgid "Add New Supplier"
-msgstr "Adicionar novo fornecedor"
+msgstr "Adicionar fornecedor"
 
 #: admin/modules/master_file/supplier.php:183
 #: admin/modules/master_file/supplier.php:210
@@ -3473,7 +3574,7 @@ msgstr "Lista de assuntos"
 
 #: admin/modules/master_file/topic.php:136
 msgid "Add New Subject"
-msgstr "Adicionar novo assunto"
+msgstr "Adicionar assunto"
 
 #: admin/modules/master_file/topic.php:181
 #, fuzzy
@@ -3507,7 +3608,7 @@ msgstr "Exportar dados"
 
 #: admin/modules/membership/export.php:123
 msgid "Export member(s) data to CSV file"
-msgstr "Exportar dados de associado(s) para arquivo CSV"
+msgstr "Exportar dados de associado(s) para um arquivo CSV"
 
 #: admin/modules/membership/import.php:168
 msgid "records inserted successfully to members database, from record"
@@ -3749,7 +3850,7 @@ msgstr "de sua busca com palavras-chave"
 #: admin/modules/membership/member_card_generator.php:266
 #: admin/modules/membership/submenu.php:31
 msgid "Member Card Printing"
-msgstr "Imprimindo cartão de usuário"
+msgstr "Imprimir carteirinha"
 
 #: admin/modules/membership/member_card_generator.php:271
 msgid "Print Member Cards for Selected Data"
@@ -3772,7 +3873,7 @@ msgstr "Tipo de usuário atualizado com sucesso"
 msgid ""
 "Member Type Data FAILED to Save/Update. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar/atualizar dados de tipo de usuário. Por favor, entre em "
+"Falha para salvar informações de tipo de usuário. Por favor, entre em "
 "contato com o administrador do sistema"
 
 #: admin/modules/membership/member_type.php:94
@@ -3785,7 +3886,7 @@ msgstr "Lista de tipo de usuário"
 
 #: admin/modules/membership/member_type.php:143
 msgid "Add New Member Type"
-msgstr "Adicionar novo tipo de usuário"
+msgstr "Adicionar tipo de usuário"
 
 #: admin/modules/membership/member_type.php:186
 msgid "Member Type Name"
@@ -3827,7 +3928,7 @@ msgstr "Multa diária"
 
 #: admin/modules/membership/submenu.php:27
 msgid "View Member List"
-msgstr "Ver lista de usuários"
+msgstr "Lista de associados"
 
 #: admin/modules/membership/submenu.php:27
 msgid "View Library Member List"
@@ -3839,7 +3940,7 @@ msgstr "Ver e modificar tipo de usuário"
 
 #: admin/modules/membership/submenu.php:31
 msgid "Print Member Card"
-msgstr "Imprimir cartão do usuário"
+msgstr "Imprimir cartão do associado"
 
 #: admin/modules/membership/submenu.php:32
 msgid "Export Members Data To CSV File"
@@ -3875,12 +3976,12 @@ msgstr "Total de empréstimos por Categoria"
 #: admin/modules/reporting/loan_report.php:72
 #: admin/modules/reporting/loan_report.php:76
 msgid "Total Loan By Collection Type"
-msgstr "Total de empréstimo por coleção"
+msgstr "Total de empréstimo por acervo"
 
 #: admin/modules/reporting/customs/class_recap.php:62
 #: admin/modules/reporting/customs/customs_report_list.inc.php:28
 msgid "Custom Recapitulations"
-msgstr "Sumarizações personalizadas"
+msgstr "Sintéticos customizados"
 
 #: admin/modules/reporting/customs/class_recap.php:65
 #: admin/modules/reporting/customs/due_date_warning.php:65
@@ -3950,7 +4051,7 @@ msgstr "Esconder opções de filtro"
 
 #: admin/modules/reporting/customs/class_recap.php:287
 msgid "Title and Collection Recap by"
-msgstr "Título e coleção sumarizados por"
+msgstr "Título e acervo resumidos por"
 
 #: admin/modules/reporting/customs/class_recap.php:287
 #: admin/modules/reporting/customs/fines_report.php:144
@@ -3974,7 +4075,7 @@ msgstr "Exportar para formato de planilhas"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:28
 msgid "Title and Collection recapitulation based on classification and others"
-msgstr "Título e coleção sumarizados baseados na classificação e em outros"
+msgstr "Título e acervo resumidos baseados na classificação e em outros"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:29
 #: admin/modules/reporting/customs/titles_list.php:63
@@ -3992,7 +4093,7 @@ msgstr "Lista de títulos dos itens"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:30
 msgid "List of collection/items"
-msgstr "Lista da coleção/itens"
+msgstr "Lista do acervo/itens"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:31
 #: admin/modules/reporting/customs/item_usage.php:61
@@ -4001,7 +4102,7 @@ msgstr "Estatísticas de uso de itens"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:31
 msgid "List of Collection/items usage statistic"
-msgstr "Lista da coleção/estatística de uso de itens"
+msgstr "Lista da acervo/estatística de uso de itens"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:32
 #: admin/modules/reporting/customs/loan_by_class.php:58
@@ -4045,11 +4146,11 @@ msgstr "Log de atividades de pessoal - sumarização"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:39
 msgid "Visitor Statistic"
-msgstr "Estatística de Visitantes"
+msgstr "Estatísticas de Visitantes"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:40
 msgid "Visitor Statistic (by Day)"
-msgstr "Estátistica de Visitantes (por Dia)"
+msgstr "Estatísticas de Visitantes (por Dia)"
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:41
 #: admin/modules/reporting/customs/visitor_list.php:64
@@ -4404,9 +4505,8 @@ msgid "Total visit/month"
 msgstr "Total de itens perdidos"
 
 #: admin/modules/reporting/customs/visitor_report_day.php:72
-#, fuzzy
 msgid "Visitor Report"
-msgstr "Outro relatórios"
+msgstr "Listagens"
 
 #: admin/modules/reporting/index.php:60
 msgid "Total Titles"
@@ -4442,7 +4542,7 @@ msgstr "10 títulos mais populares"
 
 #: admin/modules/reporting/index.php:121
 msgid "Collection Statistic Summary"
-msgstr "Sumário estatístico da coleção"
+msgstr "Resumo estatístico do acervo"
 
 #: admin/modules/reporting/index.php:151
 msgid "Collection Statistic Report"
@@ -4451,7 +4551,7 @@ msgstr "Relatório estatístico da coleção"
 #: admin/modules/reporting/index.php:169
 #: admin/modules/reporting/submenu.php:28
 msgid "Collection Statistic"
-msgstr "Estatística da coleção"
+msgstr "Resumo do acervo"
 
 #: admin/modules/reporting/index.php:173
 #: admin/modules/reporting/loan_report.php:166
@@ -4492,13 +4592,13 @@ msgstr "Total de empréstimos com atraso"
 
 #: admin/modules/reporting/loan_report.php:114
 msgid "Loan Data Summary"
-msgstr "Sumário de dados de empréstimos"
+msgstr "Resumo de dados de empréstimos"
 
 #: admin/modules/reporting/loan_report.php:144
 #: admin/modules/reporting/loan_report.php:162
 #: admin/modules/reporting/submenu.php:29
 msgid "Loan Report"
-msgstr "Relatório de empréstimo"
+msgstr "Resumo de empréstimos"
 
 #: admin/modules/reporting/member_report.php:53
 msgid "Total Registered Members"
@@ -4518,13 +4618,13 @@ msgstr "Os 10 usuários mais ativos"
 
 #: admin/modules/reporting/member_report.php:90
 msgid "Membership Data Summary"
-msgstr "Sumário dos dados de associado"
+msgstr "Resumo dos dados de associado"
 
 #: admin/modules/reporting/member_report.php:120
 #: admin/modules/reporting/member_report.php:138
 #: admin/modules/reporting/submenu.php:30
 msgid "Membership Report"
-msgstr "Relatório de associados"
+msgstr "Resumo de associados"
 
 #: admin/modules/reporting/report_dbgrid.inc.php:88
 msgid "record(s) found. Currently displaying page"
@@ -4540,7 +4640,7 @@ msgstr "Relatórios"
 
 #: admin/modules/reporting/submenu.php:28
 msgid "View Library Collection Statistic"
-msgstr "Ver estatistica de coleção da biblioteca"
+msgstr "Ver estatistica do acervo da biblioteca"
 
 #: admin/modules/reporting/submenu.php:29
 msgid "View Library Loan Report"
@@ -4552,12 +4652,12 @@ msgstr "Ver relatório de associados"
 
 #: admin/modules/reporting/submenu.php:31
 msgid "Other Reports"
-msgstr "Outro relatórios"
+msgstr "Listagens"
 
 #: admin/modules/serial_control/index.php:60
 #: admin/modules/serial_control/submenu.php:27
 msgid "Serial Control"
-msgstr "Controle de Assinaturas"
+msgstr "Séries"
 
 #: admin/modules/serial_control/index.php:85
 #, fuzzy
@@ -4566,7 +4666,7 @@ msgstr "Mostrar dados bibliográficos existentes"
 
 #: admin/modules/serial_control/index.php:87
 msgid "Add New Subscription"
-msgstr "Adicionar nova assinatura"
+msgstr "Adicionar assinatura"
 
 #: admin/modules/serial_control/index.php:89
 msgid "View Subscriptions"
@@ -4640,8 +4740,8 @@ msgstr "Novos dados de assinatura gravados com sucesso"
 #: admin/modules/serial_control/subscription.php:108
 msgid "Subscription Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar dados de assinatura. Por favor, entre em contato com o "
-"administrador do sistema"
+"Falha para salvar informações de assinatura. Por favor, entre em contato com "
+"o administrador do sistema"
 
 #: admin/modules/serial_control/subscription.php:144
 msgid "Subscription data successfully deleted"
@@ -5028,7 +5128,7 @@ msgstr "Lista de usuários"
 
 #: admin/modules/system/app_user.php:253
 msgid "Add New User"
-msgstr "Adicionar novo usuário"
+msgstr "Adicionar usuário"
 
 #: admin/modules/system/app_user.php:316 admin/modules/system/app_user.php:402
 #: admin/modules/system/app_user.php:409
@@ -5192,7 +5292,7 @@ msgstr "Lista de conteúdo"
 
 #: admin/modules/system/content.php:146
 msgid "Add New Content"
-msgstr "Adicionar novo conteúdo"
+msgstr "Adicionar conteúdo"
 
 #: admin/modules/system/content.php:190 admin/modules/system/content.php:223
 #: admin/modules/system/content.php:227
@@ -5229,8 +5329,8 @@ msgstr "Novo feriado gravado com sucesso"
 #: admin/modules/system/holiday.php:112
 msgid "Holiday FAILED to Save. Please Contact System Administrator"
 msgstr ""
-"FALHA para gravar feriado. Por favor, entre em contato com o administrador "
-"do sistema"
+"Falha para salvar informações de feriado. Por favor, entre em contato com o "
+"administrador do sistema"
 
 #: admin/modules/system/holiday.php:159
 msgid "Holiday Setings"
@@ -5436,7 +5536,7 @@ msgstr "Lista de módulos"
 
 #: admin/modules/system/module.php:150
 msgid "Add New Modules"
-msgstr "Adicionar novos módulos"
+msgstr "Adicionar módulos"
 
 #: admin/modules/system/module.php:190 admin/modules/system/module.php:210
 #: admin/modules/system/module_priv_form.inc.php:31
@@ -5529,11 +5629,11 @@ msgstr "LIMPAR LOGS"
 
 #: admin/modules/system/sys_log.php:82
 msgid "Save Logs record to file?"
-msgstr "Gravar registro de logs para um arquivo?"
+msgstr "Salvar registros de logs para um arquivo?"
 
 #: admin/modules/system/sys_log.php:82
 msgid "Save Logs To File"
-msgstr "Gravar logs para o arquivo"
+msgstr "Salvar logs para o arquivo"
 
 #: admin/modules/system/sys_log.php:107
 msgid "Time"
@@ -5573,7 +5673,7 @@ msgstr "Lista de grupo"
 
 #: admin/modules/system/user_group.php:173
 msgid "Add New Group"
-msgstr "Adicionar novo grupo"
+msgstr "Adicionar grupo"
 
 #: admin/modules/system/user_group.php:213
 #: admin/modules/system/user_group.php:240
@@ -5598,7 +5698,7 @@ msgstr ""
 msgid "<div class=\"errorBox\">File Not Found!</div>"
 msgstr ""
 
-#: index.php:43
+#: index.php:42
 msgid ""
 "Web Online Public Access Catalog - Use the search options to find documents "
 "quickly"
@@ -5606,11 +5706,11 @@ msgstr ""
 "Catálogo de acesso público online - Use as opções de busca para encontrar os "
 "documentos rapidamente"
 
-#: index.php:55
+#: index.php:54
 msgid "You are currently Logged on as member"
 msgstr "Você está no momento conectado como usuário"
 
-#: index.php:55
+#: index.php:54 lib/module.inc.php:37
 msgid "LOGOUT"
 msgstr "Sair"
 
@@ -5732,14 +5832,14 @@ msgstr "Avaliado mas não liberado"
 msgid "Profile of our Librarian"
 msgstr "Perfil de sua biblioteca"
 
-#: lib/contents/librarian.inc.php:32 sysconfig.inc.php:602
+#: lib/contents/librarian.inc.php:32 sysconfig.inc.php:605
 #: template/default/index_template.inc.php:64
 #: template/meranti/index_template.inc.php:61
 #, fuzzy
 msgid "Librarian"
 msgstr "Acesso Bibliotecário"
 
-#: lib/contents/librarian.inc.php:46 sysconfig.inc.php:578
+#: lib/contents/librarian.inc.php:46 sysconfig.inc.php:581
 msgid "Name"
 msgstr "Nome"
 
@@ -5774,6 +5874,7 @@ msgstr ""
 "não funcioná sem Javascript!"
 
 #: lib/contents/login.inc.php:172 lib/contents/member.inc.php:174
+#: template/arjava/index_template.inc.php:28
 msgid "Login"
 msgstr "Acesso"
 
@@ -5914,6 +6015,8 @@ msgstr ""
 "administrador do sistema"
 
 #: lib/contents/show_detail.inc.php:93
+#: template/MotherEarth/detail_template.php:85
+#: template/RedTie/detail_template.php:85 template/detail_template.php:95
 msgid "Back To Previous"
 msgstr "Voltar ao anterior"
 
@@ -6103,7 +6206,7 @@ msgstr "Desmarcar todos"
 
 #: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:375
 msgid "Delete Selected Data"
-msgstr "Apagar registro selecionado"
+msgstr "Deletar registros selecionados"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_element.inc.php:283
 msgid "Date"
@@ -6112,12 +6215,17 @@ msgstr "Data"
 #: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:105
 #: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:98
 msgid "Delete Record"
-msgstr "Apagar registro"
+msgstr "Deletar"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:106
 #: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:99
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "Fechar"
+
+#: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:100
+#, fuzzy
+msgid "Edit"
+msgstr "Editor"
 
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:118
 msgid "First Page"
@@ -6141,7 +6249,7 @@ msgstr "Nenhum registro encontrado"
 
 #: simbio2/simbio_GUI/template_parser/simbio_template_parser.inc.php:47
 msgid "Template file "
-msgstr ""
+msgstr "Arquivo de Layout"
 
 #: simbio2/simbio_GUI/template_parser/simbio_template_parser.inc.php:52
 #, fuzzy
@@ -6153,134 +6261,201 @@ msgid ""
 "<div style=\"border: 1px solid #FF0000; color: #FF0000;\">Template file "
 msgstr ""
 
-#: sysconfig.inc.php:531
+#: sysconfig.inc.php:534
 msgid ""
 "<div style=\"border: 1px dotted #FF0000; color: #FF0000; padding: 5px;"
 "\">Error Connecting to Database. Please check your configuration</div>"
 msgstr ""
 
-#: sysconfig.inc.php:571
+#: sysconfig.inc.php:574
 msgid "Personal Name"
 msgstr "Nome pessoal"
 
-#: sysconfig.inc.php:572
+#: sysconfig.inc.php:575
 msgid "Organizational Body"
 msgstr "Corpo Organizacional"
 
-#: sysconfig.inc.php:573
+#: sysconfig.inc.php:576
 msgid "Conference"
 msgstr "Conferência"
 
-#: sysconfig.inc.php:576
+#: sysconfig.inc.php:579
 msgid "Topic"
 msgstr "Tópico"
 
-#: sysconfig.inc.php:577
+#: sysconfig.inc.php:580
 msgid "Geographic"
 msgstr "Geográfico"
 
-#: sysconfig.inc.php:579
+#: sysconfig.inc.php:582
 msgid "Temporal"
 msgstr "Temporal"
 
-#: sysconfig.inc.php:580
+#: sysconfig.inc.php:583
 msgid "Genre"
 msgstr "Gênero"
 
-#: sysconfig.inc.php:581
+#: sysconfig.inc.php:584
 msgid "Occupation"
 msgstr "Ocupação"
 
-#: sysconfig.inc.php:584
+#: sysconfig.inc.php:587
 msgid "Primary Author"
 msgstr "Autor principal"
 
-#: sysconfig.inc.php:585
+#: sysconfig.inc.php:588
 msgid "Additional Author"
 msgstr "Autor adicional"
 
-#: sysconfig.inc.php:586
+#: sysconfig.inc.php:589
 msgid "Editor"
 msgstr "Editor"
 
-#: sysconfig.inc.php:587
+#: sysconfig.inc.php:590
 msgid "Translator"
 msgstr "Tradutor"
 
-#: sysconfig.inc.php:588
+#: sysconfig.inc.php:591
 msgid "Director"
 msgstr "Diretor"
 
-#: sysconfig.inc.php:589
+#: sysconfig.inc.php:592
 msgid "Producer"
 msgstr "Produtor"
 
-#: sysconfig.inc.php:590
+#: sysconfig.inc.php:593
 msgid "Composer"
 msgstr "Compositor"
 
-#: sysconfig.inc.php:591
+#: sysconfig.inc.php:594
 msgid "Illustrator"
 msgstr "Ilustrador"
 
-#: sysconfig.inc.php:592
+#: sysconfig.inc.php:595
 msgid "Creator"
 msgstr "Criador"
 
-#: sysconfig.inc.php:593
+#: sysconfig.inc.php:596
 msgid "Contributor"
 msgstr "Contribuidor"
 
-#: sysconfig.inc.php:603
+#: sysconfig.inc.php:606
 msgid "Senior Librarian"
 msgstr "Biblioteca Sênior"
 
-#: sysconfig.inc.php:604
+#: sysconfig.inc.php:607
 #, fuzzy
 msgid "Library Staff"
 msgstr "Nome da biblioteca"
 
+#: template/MotherEarth/detail_template.php:80
+#: template/RedTie/detail_template.php:80
+#: template/arjava/detail_template.php:135
 #: template/default/custom_frontpage_record.inc.php:12
-#: template/default/detail_template.php:88
+#: template/default/detail_template.php:88 template/detail_template.php:80
 #: template/lightweight/detail_template.php:80
 #: template/meranti/custom_frontpage_record.inc.php:12
 #: template/meranti/detail_template.php:101
 msgid "Availability"
 msgstr "Disponibilidade"
 
+#: template/MotherEarth/index_template.inc.php:57
+#: template/RedTie/index_template.inc.php:40
+#: template/RedTie/index_template_old.inc.php:40
+#: template/arjava/index_template.inc.php:24
 #: template/default/index_template.inc.php:55
+#: template/index_template.inc.php:32
 #: template/lightweight/index_template.inc.php:52
 #: template/meranti/index_template.inc.php:55
 msgid "Home"
 msgstr "Home"
 
+#: template/MotherEarth/index_template.inc.php:58
+#: template/RedTie/index_template.inc.php:40
+#: template/RedTie/index_template_old.inc.php:41
+#: template/arjava/index_template.inc.php:25
 #: template/default/index_template.inc.php:58
+#: template/index_template.inc.php:35
 #: template/lightweight/index_template.inc.php:55
 #: template/meranti/index_template.inc.php:58
 msgid "Library Information"
 msgstr "Informação da Biblioteca"
 
-#: template/default/index_template.inc.php:61
-#: template/lightweight/index_template.inc.php:61
-#: template/meranti/index_template.inc.php:64
-msgid "Member Area"
-msgstr "Área do Associado"
-
+#: template/MotherEarth/index_template.inc.php:59
+#: template/RedTie/index_template.inc.php:40
+#: template/RedTie/index_template_old.inc.php:42
+#: template/arjava/index_template.inc.php:26
 #: template/default/index_template.inc.php:67
+#: template/index_template.inc.php:33
 #: template/lightweight/index_template.inc.php:58
 #: template/meranti/index_template.inc.php:67
 msgid "Help on Search"
 msgstr "Ajuda na Pesquisa"
 
+#: template/MotherEarth/index_template.inc.php:60
+#: template/RedTie/index_template.inc.php:40
+#: template/RedTie/index_template_old.inc.php:43
+#: template/arjava/index_template.inc.php:27
+#: template/default/index_template.inc.php:61
+#: template/index_template.inc.php:34
+#: template/lightweight/index_template.inc.php:61
+#: template/meranti/index_template.inc.php:64
+msgid "Member Area"
+msgstr "Área do Associado"
+
+#: template/MotherEarth/index_template.inc.php:61
+#: template/RedTie/index_template.inc.php:45
+#: template/RedTie/index_template_old.inc.php:44
 #: template/default/index_template.inc.php:70
+#: template/index_template.inc.php:84
 #: template/meranti/index_template.inc.php:70
 msgid "Librarian LOGIN"
 msgstr "Acesso ao Bibliotecário"
 
+#: template/MotherEarth/index_template.inc.php:101
+#: template/RedTie/index_template.inc.php:80
+#: template/RedTie/index_template_old.inc.php:69
 #: template/default/index_template.inc.php:134
 #: template/meranti/index_template.inc.php:128
 msgid "Select Language"
 msgstr " Selecionar idioma"
+
+#: template/MotherEarth/index_template.inc.php:110
+#: template/RedTie/index_template.inc.php:89
+#: template/index_template.inc.php:95
+msgid "Simple Search"
+msgstr "Busca "
+
+#: template/MotherEarth/index_template.inc.php:118
+#: template/RedTie/index_template.inc.php:97
+#: template/RedTie/index_template_old.inc.php:79
+#: template/default/index_template.inc.php:262
+#: template/default/index_template.inc.php:419
+#: template/index_template.inc.php:39
+#: template/meranti/index_template.inc.php:280
+#: template/meranti/index_template.inc.php:419
+msgid "Advanced Search"
+msgstr "Busca Avançada"
+
+#: template/arjava/index_template.inc.php:69
+msgid ""
+"<p>Welcome To <strong>Senayan Library's</strong> Online Public Access "
+"Catalog (OPAC). Use OPAC to search collection in our library."
+msgstr ""
+
+#: template/arjava/index_template.inc.php:134
+msgid "Search Results"
+msgstr "Pesquisar acervo"
+
+#: template/arjava/index_template.inc.php:136
+#, fuzzy
+msgid "Latest Collections"
+msgstr "Todas as coleções"
+
+#: template/arjava/index_template.inc.php:164
+#, fuzzy
+msgid "Advance Search"
+msgstr "Busca Avançada"
 
 #: template/default/index_template.inc.php:178
 #: template/meranti/index_template.inc.php:198
@@ -6296,13 +6471,6 @@ msgstr "Todas as coleções"
 msgid "Back"
 msgstr "Voltar"
 
-#: template/default/index_template.inc.php:262
-#: template/default/index_template.inc.php:419
-#: template/meranti/index_template.inc.php:280
-#: template/meranti/index_template.inc.php:419
-msgid "Advanced Search"
-msgstr "Busca Avançada"
-
 #: template/default/index_template.inc.php:293
 #: template/default/index_template.inc.php:302
 #: template/meranti/index_template.inc.php:166
@@ -6313,14 +6481,21 @@ msgstr "Informação da Biblioteca"
 
 #: template/default/index_template.inc.php:317
 #: template/meranti/index_template.inc.php:179
-#, fuzzy
 msgid "Search Cluster"
-msgstr "Buscar coleção"
+msgstr "Pesquisar acervo"
 
 #: template/default/index_template.inc.php:320
 #: template/meranti/index_template.inc.php:181
 msgid "Generating search cluster..."
 msgstr "Gerando informações de pesquisa..."
+
+#: template/detail_template.php:85
+msgid "Custom Field 1"
+msgstr "Campo customizado 1"
+
+#: template/detail_template.php:89
+msgid "Custom Field 2"
+msgstr "Campo customizado 2"
 
 #: template/lightweight/index_template.inc.php:146
 msgid "Full Site"
@@ -6334,9 +6509,6 @@ msgstr "Lista de usuários"
 #, fuzzy
 #~ msgid "Download All Current Loan"
 #~ msgstr "Seus empréstimos atuais"
-
-#~ msgid "Simple Search"
-#~ msgstr "Busca "
 
 #~ msgid "IMPORT TOOL"
 #~ msgstr "FERRAMENTAS DE IMPORTAÇÃO"

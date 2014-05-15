@@ -34,7 +34,7 @@ class module extends simbio
     private $module_table = 'mst_module';
     public $module_list = array();
     public $appended_first = '<li><a class="menu home#replaced#" href="index.php"><span>Home</a></li><li><a class="menu opac" href="../index.php" title="View OPAC in New Window" target="_blank"><span>OPAC</span></a></li>';
-    public $appended_last = '<li><a class="menu logout" href="logout.php"><span>LOGOUT</span></a></li>';
+    public $appended_last = '<li><a class="menu logout" href="logout.php"><span>Sair do Sistema</span></a></li>';
 
 
     /**
