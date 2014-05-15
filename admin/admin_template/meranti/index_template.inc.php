@@ -30,7 +30,6 @@
 
 <!-- header-->
 <div id="header">
-	<div id="headerImage">&nbsp;</div>
 	<div id="libraryName">
 		<?php echo $sysconf['library_name']; ?>
 	</div>

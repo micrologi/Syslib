@@ -144,9 +144,9 @@ if (isset($_POST['logMeIn'])) {
     <?php } ?>
     <!-- Captcha preloaded javascript - end -->
     <form action="index.php?p=login" method="post">
-    <div class="heading1">Username</div>
+    <div class="heading1">Usuário</div>
     <div class="login_input"><input type="text" name="userName" id="userName" class="login_input" /></div>
-    <div class="heading1">Password</div>
+    <div class="heading1">Senha</div>
     <div class="login_input"><input type="password" name="passWord" class="login_input" /></div>
     <!-- Captcha in form - start -->
     <?php if ($sysconf['captcha']['smc']['enable']) { ?>

@@ -85,13 +85,13 @@ div.clear {
 -----------*/
 #mainMenu {
   position:fixed;
-	bottom:0px;
+  bottom:0px;
   width:100%;
   background-color: #222;
   background-color: #222222;
   background-repeat: repeat-x;
   height:44px;
-	z-index: 999;
+  z-index: 999;
 }
 
 .menuCurrent, #mainMenu a:hover {
@@ -158,9 +158,9 @@ header
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   color:#fff;
   padding:5px;
-	height: 40px;
-	z-index: 1000;
-	top: 0;
+  height: 40px;
+  z-index: 1000;
+  top: 0;
 }
 
 #libraryName {
@@ -199,9 +199,9 @@ submenu
   width: 250px;
   /*background: #89c1db;*/
   background: #333;
-	overflow: hidden;
-	position: fixed;
-	bottom: 45px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 45px;
 }
 
 #sidepan:hover {

@@ -97,10 +97,11 @@ class simbio_form_table_AJAX extends simbio_form_maker
       $_back_button = '';
       $_del_value = __('Delete Record');
       $_cancel_value = __('Cancel');
+	  $_edit_value = __('Edit');
 
       // check if we are on edit form mode
       if ($this->edit_mode) {
-          $_edit_link .= '<a href="#" class="notAJAX editFormLink btn btn-danger">EDIT</a>';
+          $_edit_link .= '<a href="#" class="notAJAX editFormLink btn btn-danger">'.$_edit_value.'</a>';
           // delete button exists if the record_id properties exists
           if ($this->record_id && $this->delete_button) {
               // create delete button
@@ -115,9 +116,16 @@ class simbio_form_table_AJAX extends simbio_form_maker
       $_buttons = '';
       // check if form tag is included
       if ($this->with_form_tag) {
+         // MAC - Alteração do botão EDIT para proximo dos demais botões.
+          $_buttons = '<table cellspacing="0" cellpadding="3" style="width: 100%; background-color: #dcdcdc;">'
+              .'<tr><td>'.$_edit_link.' <input type="submit" class="button btn btn-success" '.$this->submit_button_attr.' /> '.$_delete_button.' '.$_back_button.'</td><td class="edit-link-area"></td>'
+              .'</tr></table>'."\n";
+		 /*
           $_buttons = '<table cellspacing="0" cellpadding="3" style="width: 100%; background-color: #dcdcdc;">'
               .'<tr><td><input type="submit" class="button btn btn-success" '.$this->submit_button_attr.' /> '.$_back_button.' '.$_delete_button.'</td><td class="edit-link-area">'.$_edit_link.'</td>'
               .'</tr></table>'."\n";
+		  *
+		  */
       }
       // get the table result
       $_buffer .= $_buttons;
