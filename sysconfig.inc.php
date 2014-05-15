@@ -187,6 +187,9 @@ $sysconf['enable_xml_result'] = true;
 /* DATABASE BACKUP config */
 // specify the full path of mysqldump binary
 $sysconf['mysqldump'] = '/usr/bin/mysqldump';
+// MAC - Espeficando vazio, o sistema não checa a existência do mysqldump e não dá alerta ao usuário, ou seja, o backuo é desativado 
+$sysconf['mysqldump'] = '';
+
 // backup location (make sure it is accessible and rewritable to webserver!)
 $sysconf['temp_dir'] = '/tmp';
 $sysconf['backup_dir'] = UPLOAD.'backup'.DS;

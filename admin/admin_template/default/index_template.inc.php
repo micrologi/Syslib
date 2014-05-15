@@ -33,9 +33,6 @@
      based on template by Eddy Subratha -->
 </head>
 <body id="main">
-<div id="sidepan">
-<?php echo $sub_menu; ?>
-</div>
 
 <!-- main menu -->
 <div id="mainMenu"><?php echo $main_menu; ?></div>
@@ -48,11 +45,12 @@
 	<div id="libraryName">
 		<a href="./index.php"><?php echo $sysconf['library_name']; ?></a>
 	</div>
-	<div id="librarySubName">
-		<?php echo $sysconf['library_subname']; ?>
-	</div>
 </div>
 <!-- header end-->
+
+<div id="sidepan">
+	<?php echo $sub_menu; ?>
+</div>
 
 <table id="main" cellpadding="0" cellspacing="0">
 <tr>

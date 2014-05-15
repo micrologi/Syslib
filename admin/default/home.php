@@ -69,8 +69,10 @@ if (!is_writable(UPLOAD)) {
     $warnings[] = __('<strong>File upload</strong> directory is not writable. Make sure it is writable (and all directories under it) by changing its permission or you won\'t be able to upload any file, create report files and create database backups.');
 }
 // check mysqldump
-if (!file_exists($sysconf['mysqldump'])) {
-    $warnings[] = __('The PATH for <strong>mysqldump</strong> program is not right! Please check configuration file or you won\'t be able to do any database backups.');
+if ($sysconf['mysqldump'] != '') {
+	if (!file_exists($sysconf['mysqldump'])) {
+	    $warnings[] = __('The PATH for <strong>mysqldump</strong> program is not right! Please check configuration file or you won\'t be able to do any database backups.');
+	}
 }
 
 // check need to be repaired mysql database
