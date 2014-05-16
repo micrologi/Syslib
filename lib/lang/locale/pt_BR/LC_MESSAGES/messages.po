@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Senayan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-05-15 17:28-0300\n"
-"PO-Revision-Date: 2014-05-15 17:34-0300\n"
+"PO-Revision-Date: 2014-05-15 23:40-0300\n"
 "Last-Translator: Marlon <marlon@micrologi.com.br>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -657,7 +657,7 @@ msgstr "Data de devolução"
 #: admin/modules/system/user_group.php:261
 msgid "Found <strong>{result->num_rows}</strong> from your keywords"
 msgstr ""
-"Encontrados <strong>{result->num_rows}</strong> com suas palavras-chave"
+"Encontrados <strong>{result->num_rows}</strong> itens com suas palavras-chave"
 
 #: admin/modules/bibliography/dl_print.php:92
 #: admin/modules/bibliography/item_barcode_generator.php:96
@@ -1968,9 +1968,8 @@ msgid ""
 msgstr ""
 
 #: admin/modules/bibliography/marcimport.php:343
-#, fuzzy
 msgid "MARC Import tool"
-msgstr "Importar agora"
+msgstr "Ferramenta de importação MARC"
 
 #: admin/modules/bibliography/marcimport.php:346
 msgid ""
@@ -1992,7 +1991,7 @@ msgstr "Número de registros para importar (0 para todos os registros)"
 #, php-format
 msgid "Sorry, no result found from %s OR maybe XML result and detail disabled."
 msgstr ""
-"Desculpe, no foram encontrados resultados do %s ou o resultado em XML está "
+"Desculpe, não foram encontrados resultados do %s ou o resultado em XML está "
 "desabilitado"
 
 #: admin/modules/bibliography/p2p.php:223
@@ -2187,25 +2186,23 @@ msgstr "Catalogando cópias"
 
 #: admin/modules/bibliography/submenu.php:34
 msgid "Z3950 SRU"
-msgstr "Serviço Z3950"
+msgstr "Serviço Z39.50"
 
 #: admin/modules/bibliography/submenu.php:34
-#, fuzzy
 msgid "Grab Bibliographic Data from Z3950 SRU Web Services"
-msgstr "Coletar dados bibliográficos do serviço Web Z3950"
+msgstr "Coletar dados bibliográficos do serviço online Z39.50"
 
 #: admin/modules/bibliography/submenu.php:35
 msgid "Z3950 Service"
-msgstr "Z3950 Service"
+msgstr "Z39.50 Service"
 
 #: admin/modules/bibliography/submenu.php:35
 msgid "Grab Bibliographic Data from Z3950 Web Services"
-msgstr "Coletar dados bibliográficos do serviço Web Z3950"
+msgstr "Coletar dados bibliográficos do serviço online Z39.50"
 
 #: admin/modules/bibliography/submenu.php:36
-#, fuzzy
 msgid "Grab Bibliographic Data from Other SLiMS Web Services"
-msgstr "Coletar dados bibliográficos do serviço Web Z3950"
+msgstr "Coletar dados bibliográficos do serviço online Z39.50"
 
 #: admin/modules/bibliography/submenu.php:37
 #: admin/modules/master_file/submenu.php:40
@@ -2282,11 +2279,11 @@ msgstr ""
 
 #: admin/modules/bibliography/z3950.php:275
 msgid "Z3950"
-msgstr ""
+msgstr "Z39.50"
 
 #: admin/modules/bibliography/z3950sru.php:247
 msgid "Z3950 Search/Retrieve via URL (SRU)"
-msgstr ""
+msgstr "Z39.50 Pesquisa via URL (SRU)"
 
 #: admin/modules/bibliography/z3950sru.php:252
 msgid "All fields"
@@ -2294,7 +2291,7 @@ msgstr "Todos os campos"
 
 #: admin/modules/bibliography/z3950sru.php:253
 msgid "SRU Server"
-msgstr ""
+msgstr "Servidor SRU"
 
 #: admin/modules/circulation/circulation_action.php:57
 msgid "ERROR! Loan data can't be saved to database"
@@ -4628,7 +4625,7 @@ msgstr "Resumo de associados"
 
 #: admin/modules/reporting/report_dbgrid.inc.php:88
 msgid "record(s) found. Currently displaying page"
-msgstr "registro(s) encontrados. Exibindo a página"
+msgstr "item(s) encontrados. Exibindo na página atual"
 
 #: admin/modules/reporting/report_dbgrid.inc.php:88
 msgid "record each page"
@@ -4938,9 +4935,8 @@ msgid "Separate each class comma sign. Use * for wildcard"
 msgstr "Separar cada classe com vírgula. Use * como curinga"
 
 #: admin/modules/stock_take/init.php:193
-#, fuzzy
 msgid "Initialize Stock Take Process"
-msgstr "Iniciar novo processo de inventário"
+msgstr "Iniciar processo de inventário"
 
 #: admin/modules/stock_take/lost_item_list.php:54
 #: admin/modules/stock_take/submenu.php:34
@@ -5120,7 +5116,7 @@ msgstr ""
 
 #: admin/modules/system/app_user.php:248 admin/modules/system/submenu.php:36
 msgid "Librarian & System Users"
-msgstr "Sistema de Usuários"
+msgstr "Usuários do Sistema"
 
 #: admin/modules/system/app_user.php:252
 msgid "User List"
@@ -5173,7 +5169,7 @@ msgstr "Iniciar novo backup"
 #: admin/modules/system/barcode_generator.php:133
 #: admin/modules/system/submenu.php:40
 msgid "Barcode Generator"
-msgstr "Gerador de código de barras"
+msgstr "Gerador de códigos de barras"
 
 #: admin/modules/system/barcode_generator.php:116
 msgid "Error creating barcode!"
@@ -5590,7 +5586,7 @@ msgstr "Gerenciar usuários e administradores do sistema"
 
 #: admin/modules/system/submenu.php:37 admin/modules/system/user_group.php:168
 msgid "User Group"
-msgstr "Grupo Usuário"
+msgstr "Grupo de Usuários"
 
 #: admin/modules/system/submenu.php:37
 msgid "Manage Group of Application User"
@@ -5696,7 +5692,7 @@ msgstr ""
 #: lib/contents/fstream-pdf.inc.php:68 lib/contents/fstream-pdf.inc.php:71
 #: lib/contents/fstream.inc.php:119
 msgid "<div class=\"errorBox\">File Not Found!</div>"
-msgstr ""
+msgstr "<div class=\"errorBox\">Arquivo não encontrado!</div>"
 
 #: index.php:42
 msgid ""
@@ -5773,10 +5769,10 @@ msgid "All GMD/Media"
 msgstr "Todas as Categorias"
 
 #: lib/contents/default.inc.php:150 lib/contents/default.inc.php:163
-#, fuzzy
 msgid "Found <strong>{biblio_list->num_rows}</strong> from your keywords"
 msgstr ""
-"Encontrado  <strong>{biblio_list->num_rows}</strong> com suas palavras-chave"
+"Encontrado  <strong>{biblio_list->num_rows}</strong> itens com suas palavras-"
+"chave"
 
 #: lib/contents/default.inc.php:187
 msgid ""
@@ -6114,7 +6110,7 @@ msgstr "Persa"
 
 #: lib/recaptcha/recaptchalib.php:81
 msgid "Could not open socket"
-msgstr ""
+msgstr "Não foi possível abrir a conexão"
 
 #: lib/recaptcha/recaptchalib.php:109 lib/recaptcha/recaptchalib.php:155
 msgid ""
